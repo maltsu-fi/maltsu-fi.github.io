@@ -1,7 +1,10 @@
 # Security policy for maltsu.fi
 # See https://securitytxt.org/ for more information
 
-Contact: https://github.com/maltsu-fi/maltsu-fi.github.io/security/advisories/new
+Contact: maltsu@protonmail.com
 Expires: 2026-12-31T23:59:59.000Z
-Preferred-Languages: en, fi
+Preferred-Languages: en
 Canonical: https://maltsu.fi/.well-known/security.txt
+Scope: This domain is used exclusively for research purposes.
+Acknowledgments: On request
+Encryption: maltsu.fi/pgp.txt

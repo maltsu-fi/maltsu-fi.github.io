@@ -2,20 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>maltsu.fi – Research Node</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>maltsu.fi</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="description" content="maltsu.fi research notice and security contact information.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>maltsu.fi</h1>
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-bracket">[</span>
+            <span class="logo-text">maltsu.fi</span>
+            <span class="logo-bracket">]</span>
+        </div>
+        <div class="subtitle typewriter" data-text="research node // responsible operations on the net"></div>
     </header>
-    <main>
-        <p>Welcome to maltsu.fi</p>
+
+    <main class="container">
+        <section class="card">
+            <h1 class="glitch-title" data-glitch="Research Notice">Research Notice</h1>
+
+            <p>
+                This site is operated solely for <strong>research purposes</strong>. As the administrator of this
+                domain, I strive to follow <strong>best practices in responsible disclosure</strong> and to act as a
+                <strong>good neighbour on the Internet</strong>.
+            </p>
+
+            <p>
+                If you recognize any security issues or observe potentially malicious activity related to
+                <strong>maltsu.fi</strong>, please get in touch using the contact address below.
+            </p>
+
+            <div class="contact-block">
+                <div class="contact-label">Security Contact</div>
+                <a href="mailto:maltsu-fi@protonmail.com" class="contact-email">
+                    maltsu-fi@protonmail.com
+                </a>
+            </div>
+        </section>
+
+        <section class="card secondary">
+            <h2>Cooperative Disclosure</h2>
+            <p>
+                I appreciate clear, concise reports that include timestamps, source IPs (where possible), relevant
+                logs, and any indicators of compromise you have observed. When feasible, I will respond and remediate
+                in a timely and responsible way.
+            </p>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2025 maltsu.fi</p>
+
+    <footer class="site-footer">
+        <span>&copy; <span id="year"></span> maltsu.fi</span>
+        <span class="footer-divider">/</span>
+        <span>research-only infrastructure</span>
     </footer>
-    <script src="js/main.js" defer>
 </body>
 </html>

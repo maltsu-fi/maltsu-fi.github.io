@@ -1,0 +1,53 @@
+Policy for maltsu.fi
+Last-Updated: 2025-11-26
+
+1. Purpose
+The domain maltsu.fi is operated solely for technical and security research purposes.
+No commercial services are offered from this domain.
+
+2. Good-Faith Research
+Good-faith security research and responsible disclosure are welcomed. Reports that are
+submitted responsibly, without causing harm or disruption, will be treated with respect
+and handled confidentially.
+
+3. Authorized Testing
+This policy does NOT grant permission to:
+- Perform unauthorized access
+- Attempt exploitation
+- Conduct denial-of-service attacks
+- Perform intrusive scanning against third-party systems
+- Intercept or modify traffic belonging to others
+
+Only systems explicitly designated by the operator for testing are in scope. At present,
+no public attack surface is intentionally exposed for testing.
+
+4. Out-of-Scope Activities
+The following activities are strictly out of scope and not authorized:
+- Data exfiltration
+- Privilege escalation
+- Service disruption
+- Attacks against infrastructure not owned or controlled by the operator
+- Attacks using maltsu.fi as an origin to target others
+
+5. Reporting
+If you discover a security issue, abuse, or anomalous activity related to maltsu.fi,
+please report it responsibly according to https://maltsu.fi/.well-known/security.txt
+
+Reports should include, where possible:
+- Date and time (with timezone)
+- Source and destination IP addresses
+- Relevant logs or packet captures
+- A concise technical description
+
+6. Disclosure Handling
+Reports will be reviewed and triaged in a reasonable timeframe. Coordinated disclosure
+is preferred. No bug bounty program is currently offered.
+
+7. Privacy
+Reporter identity will be handled confidentially and only shared when required by law
+or with explicit consent.
+
+8. Safe Testing Statement
+This policy is intended to support responsible research and reporting. It does not
+authorize any activity that would be unlawful under applicable local, national, or
+international law.

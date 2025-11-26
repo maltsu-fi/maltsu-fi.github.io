@@ -1,0 +1,7 @@
+# Security policy for maltsu.fi
+# See https://securitytxt.org/ for more information
+
+Contact: https://github.com/maltsu-fi/maltsu-fi.github.io/security/advisories/new
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en, fi
+Canonical: https://maltsu.fi/.well-known/security.txt
